@@ -8,7 +8,7 @@ public class pelicula
 	private Year agno;
 	private String sinopsis;
 	private String pais;
-	private String genero;
+	private genero genero;
 	public java.util.Collection actor = new java.util.TreeSet();
 	public java.util.Collection director = new java.util.TreeSet();
 	public java.util.Collection productor = new java.util.TreeSet();
