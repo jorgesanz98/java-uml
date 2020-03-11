@@ -1,10 +1,12 @@
 package ejercicio1;
 
+import java.sql.Date;
+
 public class persona 
 {
 	private String nombre;
 	private String apellidos;
-	private String fechaNacimiento;
+	private Date fechaNacimiento;
 	private String nacionalidad;
 	public pelicula participa;
 	public pelicula dirige;

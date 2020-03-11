@@ -1,9 +1,11 @@
 package ejercicio1;
 
+import java.time.Year;
+
 public class pelicula
 {
 	private String titulo;
-	private String agno;
+	private Year agno;
 	private String sinopsis;
 	private String pais;
 	private String genero;
