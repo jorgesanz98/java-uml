@@ -81,6 +81,6 @@ public class pelicula
 	public void mostrarDatos()
 	{
 		System.out.println("Titulo: "+titulo+"\n"+"Agno: "+agno+"\n"+"Pais: "+pais+"\n"+"Actor: "
-	+actor+"\n"+"Genero: "+genero);
+	+actor+"\n"+"Genero: "+genero+"Trailer"+tieneTrailer);
 	}
 }
