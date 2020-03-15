@@ -28,6 +28,10 @@ public class testRugby {
 		partido partido1 = new partido();
 		partido1.setArbitro(arbitro1);
 		partido1.setLocal(equipo1);
+		equipo equipo2 = new equipo();
+		paises pais2 = paises.Francia;
+		equipo2.setEquipo(pais2);
+		partido1.setVisitante(equipo2);
 		System.out.println(partido1.mostrarDatosPartido());
 	}
 

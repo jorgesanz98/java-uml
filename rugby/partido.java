@@ -75,7 +75,7 @@ public class partido
 
 
 	public void setArbitro(arbitro arbitro1) {
-		this.arbitro = arbitro1;
+		this.arbitro = arbitro;
 	}
 
 
@@ -85,7 +85,7 @@ public class partido
 
 
 	public void setLocal(equipo equipo1) {
-		this.local =equipo1;
+		this.local =local;
 	}
 
 
@@ -94,7 +94,7 @@ public class partido
 	}
 
 
-	public void setVisitante(Collection visitante) {
+	public void setVisitante(equipo equipo2) {
 		this.visitante = visitante;
 	}
 
@@ -110,7 +110,7 @@ public class partido
 
 	public String mostrarDatosPartido()
 	{
-		return arbitro+""+local;
+		return arbitro+""+local+""+visitante;
 	}
 	public void resultado()
 	{
