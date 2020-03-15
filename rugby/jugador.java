@@ -1,7 +1,5 @@
 package rugby;
 
-import java.sql.Date;
-
 public class jugador extends persona
 {
 	private posiciones posicion;

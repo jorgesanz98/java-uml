@@ -1,5 +1,7 @@
 package rugby;
 
+import java.util.Collection;
+
 public class testRugby {
 
 	public static void main(String[] args) 
@@ -21,7 +23,12 @@ public class testRugby {
 		equipo equipo1 = new equipo();
 		paises pais1 = paises.Escocia;
 		equipo1.setEquipo(pais1);
-		
+		arbitro arbitro1 = new arbitro();
+		arbitro1.setNombre("alfredo");
+		partido partido1 = new partido();
+		partido1.setArbitro(arbitro1);
+		partido1.setLocal(equipo1);
+		System.out.println(partido1.mostrarDatosPartido());
 	}
 
 }
